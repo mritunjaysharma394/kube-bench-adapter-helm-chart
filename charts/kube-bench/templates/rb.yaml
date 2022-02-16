@@ -8,7 +8,7 @@ metadata:
 subjects:
 - kind: ServiceAccount
   name: {{ include "kube-bench.fullname" . }} # Name of the ServiceAccount
-  namespace: {{.Values.env}}
+  namespace: {{.Values.kubeBench.namespace}}
 roleRef:
   kind: ClusterRole # This must be Role or ClusterRole
   name: {{ include "kube-bench.fullname" . }} # This must match the name of the Role or ClusterRole you wish to bind to

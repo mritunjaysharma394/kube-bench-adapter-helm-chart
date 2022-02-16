@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: CronJob
 metadata:
-  namespace: {{ .Values.env }}
+  namespace: {{ .Values.kubeBench.namespace}}
   name: {{ include "kube-bench.fullname" . }}
   labels:
     {{- include "kube-bench.labels" . | nindent 4 }}

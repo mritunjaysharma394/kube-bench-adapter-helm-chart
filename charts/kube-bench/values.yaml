@@ -41,10 +41,6 @@ kubeBench:
   kubeconfig: "$HOME/.kube/config"
   yaml: "job-master.yaml"
 
-
-# namespace
-env: "default"
-
 podAnnotations: {}
 
 podSecurityContext: {}
