@@ -1,3 +1,1 @@
-# kube-bench-adapter-helm-chart
-
-test
+Sloth chart repository, see https://sloth.dev
