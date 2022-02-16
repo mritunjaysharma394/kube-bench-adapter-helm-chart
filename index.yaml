@@ -3,6 +3,16 @@ entries:
   kube-bench:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-02-16T12:23:46.216861131Z"
+    description: A Helm chart for Kube-bench-adapter
+    digest: e56e4332f92ef3cf01ec88d97ef24bcbf122414c6008094a0aae1a03f72a875b
+    name: kube-bench
+    type: application
+    urls:
+    - https://github.com/mritunjaysharma394/kube-bench-adapter-helm-chart/releases/download/kube-bench-0.1.1/kube-bench-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-02-16T12:06:44.699647214Z"
     description: A Helm chart for Kube-bench-adapter
     digest: ee091536f81672cf462411c66061f3300efb85004cbdb0eb94570a814a49b47f
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/mritunjaysharma394/kube-bench-adapter-helm-chart/releases/download/kube-bench-0.1.0/kube-bench-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-16T12:06:44.699655915Z"
+generated: "2022-02-16T12:23:46.216869631Z"
