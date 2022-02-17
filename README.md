@@ -28,7 +28,7 @@ kubectl get clusterpolicyreports
 | cronjob.schedule | string | `"\"*/2 * * * *\""` | cronjob schedule, default is 2 mins. |
 | fullnameOverride | string | `""` |  |
 | image.pullPolicy | string | `"Always"` |  |
-| image.repository | string | `"mritunjay394/policyreport"` | image repository of kube-bench-adapter |
+| image.repository | string | `"ghcr.io/nirmata/kube-bench-adapter"` | image repository of kube-bench-adapter |
 | image.tag | string | `"latest"` | tag of image repository of kube-bench-adapter |
 | imagePullSecrets | list | `[]` |  |
 | ingress.annotations | object | `{}` |  |
