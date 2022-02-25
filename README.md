@@ -44,7 +44,7 @@ kubectl get clusterpolicyreports
 | kubeBench.kubeconfig | string | `"$HOME/.kube/config"` | absolute path to the kubeconfig file |
 | kubeBench.name | string | `"kube-bench"` | name of kube-bench adapter cluster policy report |
 | kubeBench.namespace | string | `"default"` | specifies namespace where kube-bench job will run |
-| kubeBench.provider | string | `"job.yaml"` | name of provider of YAML for kube-bench job, allowed values: job.yaml, job-master.yaml, job-node.yaml, job-ack.yaml, job-aks.yaml, job-eks-asff.yaml, job-eks.yaml, job-gke.yaml, job-iks.yaml |
+| kubeBench.yaml | string | `"job.yaml"` | name of provider of YAML for kube-bench job, allowed values: job.yaml, job-master.yaml, job-node.yaml, job-ack.yaml, job-aks.yaml, job-eks-asff.yaml, job-eks.yaml, job-gke.yaml, job-iks.yaml |
 | nameOverride | string | `""` |  |
 | rbac.create | bool | `true` |  |
 | replicaCount | int | `1` |  |
