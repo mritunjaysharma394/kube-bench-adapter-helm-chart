@@ -24,6 +24,18 @@ entries:
   kube-bench-adapter:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-02-25T08:41:22.495141085Z"
+    description: The kube-bench adapter periodically runs a CIS benchmark check using
+      cron-job with a tool called kube-bench and produces a cluster-wide policy report
+      based on the Policy Report Custom Resource Definition
+    digest: 47ef6de7799777a6feb4b70b80bf5849428fc7688e5b7b9eff5030670cd3455f
+    name: kube-bench-adapter
+    type: application
+    urls:
+    - https://github.com/mritunjaysharma394/kube-bench-adapter-helm-chart/releases/download/kube-bench-adapter-0.1.6/kube-bench-adapter-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-02-25T07:55:47.510973416Z"
     description: The kube-bench adapter periodically runs a CIS benchmark check using
       cron-job with a tool called kube-bench and produces a cluster-wide policy report
@@ -58,4 +70,4 @@ entries:
     urls:
     - https://github.com/mritunjaysharma394/kube-bench-adapter-helm-chart/releases/download/kube-bench-adapter-0.1.3/kube-bench-adapter-0.1.3.tgz
     version: 0.1.3
-generated: "2022-02-25T07:55:47.511109118Z"
+generated: "2022-02-25T08:41:22.495160485Z"
