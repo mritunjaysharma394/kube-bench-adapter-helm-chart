@@ -13,7 +13,7 @@ helm repo add charts https://mritunjaysharma394.github.io/kube-bench-adapter-hel
 
 # 2. Install kube-bench adapter from charts helm repo with desired parameters.
 
-helm install kube-bench-adapter charts/kube-bench-adapter --set kubeBench.name="test-1" --set kubeBench.yaml="job.yaml" --set kubeBench.benchmark="cis-1.6"
+helm install kube-bench-adapter charts/kube-bench-adapter --set kubeBench.name="test-1" --set kubeBench.yaml="job.yaml"
 
 # 3. Watch the jobs
 kubectl get jobs --watch
